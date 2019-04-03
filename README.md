@@ -1,5 +1,5 @@
 # FormUI
-Ultra light librairy to check form's field
+Ultra light librairy to check form's fields
 
 ## Usage
 
