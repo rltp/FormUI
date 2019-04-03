@@ -61,6 +61,7 @@ You can change options for differents field:
 ||| `Default` : 'Bad field on {field tag name}'|
 | regex | `Regex` | Apply your custom regex |
 ||| email : `/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/` |
+||| date (dd/mm/yyyy) : `/^([0-2][0-9]|(3)[0-1])(\/)(((0)[0-9])|((1)[0-2]))(\/)\d{4}$/` |
 | onChange | `Object` | Edit the Css' node when the field is editing |
 ||| - `enable` (Boolean) : true |
 ||| - `class` (String) : 'formUI__change' |
