@@ -29,17 +29,17 @@ Downloaded
     let containerErrors = new FormUI(errorsArea);
     
     containerErrors.listen(fieldEmail,{
-		regex: /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/,
-		content : 'Please use a valid email'
-	});
+        regex: /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/,
+	content : 'Please use a valid email'
+    });
 	
-	containerErrors.listen(fieldDate,{
-		regex: /^([0-2][0-9]|(3)[0-1])(\/)(((0)[0-9])|((1)[0-2]))(\/)\d{4}$/,
-		content : 'Please use a correct date (dd/mm/yyyy)'
-		onChange: {
-		    enable: false
-		}
-	});
+    containerErrors.listen(fieldDate,{
+        regex: /^([0-2][0-9]|(3)[0-1])(\/)(((0)[0-9])|((1)[0-2]))(\/)\d{4}$/,
+        content : 'Please use a correct date (dd/mm/yyyy)'
+        onChange: {
+	    enable: false
+	}
+    });
 ```
 ### new FormUI(el)
 `el` is the container element which content the messages errors
